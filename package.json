@@ -9,7 +9,7 @@
   "main": "dist/app.js",
   "scripts": {
     "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
-    "build": "tsc",
+    "build": "tsc && parcel build public/index.html",
     "prestart": "yarn run build",
     "start": "node .",
     "serve": "parcel public/index.html",
