@@ -2,6 +2,10 @@
   "name": "pantry",
   "version": "0.0.1",
   "description": "A Food Spoilage Assistant | Inventory for your fridge",
+  "engines": {
+    "node": "13.11.x",
+    "yarn": "1.22.x"
+  },
   "main": "dist/app.js",
   "scripts": {
     "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
