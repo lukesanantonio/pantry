@@ -1,7 +1,7 @@
 {
   "name": "pantry",
   "version": "0.0.1",
-  "description": "A smart food-spoilage assistant | An inventory for your fridge",
+  "description": "A Food Spoilage Assistant | Inventory for your fridge",
   "main": "dist/app.js",
   "scripts": {
     "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
