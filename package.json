@@ -9,11 +9,10 @@
   "main": "dist/app.js",
   "scripts": {
     "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
-    "build": "tsc && parcel build public/index.html",
+    "build": "tsc && parcel build public/index.html --out-dir dist/public",
     "prestart": "yarn run build",
     "start": "node .",
-    "serve": "parcel public/index.html",
-    "watch": "parcel watch public/index.html",
+    "watch": "parcel watch public/index.html --out-dir dist/public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "https://github.com/lukesanantonio/pantry",
